@@ -6,3 +6,4 @@ while True:
     action, _states = model.predict(obs)
     obs, rewards, done, info = env.step(action)
     env.render()
+env.close()
